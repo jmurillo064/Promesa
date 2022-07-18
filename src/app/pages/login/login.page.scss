@@ -1,0 +1,55 @@
+
+#divPadre {
+    height: calc(100% - 128px);
+    width:100%;
+    text-align:center;
+    display: flex;
+    background-image: linear-gradient(#ffffff, #DF8614);
+}
+
+#divHijo {
+    margin:auto auto;
+    background: none;
+}
+
+span{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 10px;
+    background-color: #DF8614;
+}
+
+#divSpam{
+    padding-bottom: 50px;
+}
+
+#divInput{
+    padding-bottom: 25px;
+}
+
+ion-input{
+    border: solid #ffffff;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+ion-button{
+    background: none;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+    border: solid #ffffff;
+    border-radius: 5px;
+    display: flex;
+}
+
+.imgFinal{
+    display: flex;
+    width: 100%;
+    height: 128px;
+    bottom:0px;
+    position:absolute;
+}

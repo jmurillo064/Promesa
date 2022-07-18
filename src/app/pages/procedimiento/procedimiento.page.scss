@@ -1,0 +1,49 @@
+ion-grid{
+    text-align: center;
+}
+
+ion-toolbar{
+    background-color: #DF8614;
+}
+
+ion-content{
+    background-color: #ffffff;
+}
+
+.divImg{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+ion-title{
+    padding-top: 10px;
+    color: #f5f5f3;
+}
+
+.divG{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    border-radius: 30px;
+}
+
+.imgColor{
+    width: auto;
+    height: auto; 
+}
+
+.boton{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #DF8614;
+}

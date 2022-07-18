@@ -1,0 +1,53 @@
+ion-item{
+    align-items: center;
+}
+
+#padre{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+#hijo{
+    width: 75%;
+}
+
+#divImg{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+    ion-img{
+        height: 50%;
+        width: 50%;
+    }
+}
+
+#resultado{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+    ion-item{
+        width: 50%;
+    }
+}
+
+#boton{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    ion-button{
+        width: 50%;
+    }
+}
+

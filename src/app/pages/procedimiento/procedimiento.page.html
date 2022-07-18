@@ -1,0 +1,53 @@
+<ion-app >
+  <ion-content color="blanco">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Procedimiento</ion-title>
+        <ion-button (click)="salir()" slot="end"><ion-icon style="height: 30px; width: 30px;" name="exit-outline"></ion-icon></ion-button>
+      </ion-toolbar>
+    </ion-header>
+    <div >
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img *ngIf="imgURL" [src]="imgURL" alt="imgURL">
+            <!-- <ion-button *ngIf="imgURL" (click)="procesarImg()">Predecir</ion-button> -->
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <div class="divG">
+              <div class="divImg" >
+                <ion-button button class="boton" (click)="tomarFoto()">
+                  <!-- <input type='file' id="Imagen_U" name="Imagen_U" [(ngModel)]="Imagen_U"  (change)="onSelectFile($event)"> -->
+                  <ion-row>
+                    <ion-title> Tomar foto</ion-title>
+                    <ion-col>
+                      <img src=".\assets\icon\camara.png" alt="">
+                    </ion-col>
+                  </ion-row>
+                </ion-button>
+              </div>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <div class="divG">
+              <div class="divImg">
+                <ion-button class="boton" (click)="subirFoto()">
+                  <ion-row>
+                    <ion-title> Elegir foto</ion-title>
+                    <ion-col>
+                      <img class="imgColor" src=".\assets\icon\subir.png" alt="" >
+                    </ion-col>
+                  </ion-row>
+                </ion-button>
+              </div>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </ion-content>
+</ion-app>

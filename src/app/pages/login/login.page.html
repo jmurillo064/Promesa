@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-app>
+  <ion-content padding center text-center>
+    <div id="divPadre">
+      <div id="divHijo">
+        <div id="divSpam">
+          <p>
+            <span>La Promesa</span>
+          </p>
+        </div>
+        <div >
+          <div id="divInput">
+            <ion-input [(ngModel)]="cedula" type="text" placeholder="Ingrese cédula" required ></ion-input>
+          </div>
+          <div id="divInput">
+            <ion-input [(ngModel)]="pass" type="password" placeholder="Ingrese contraseña" required></ion-input> 
+          </div>
+          <div>
+            <ion-button (click)="iniciarSesion()" color="none">Iniciar sesión</ion-button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img class="imgFinal" src=".\assets\icon\cacao.jpg" alt="">
+    </div>      
+  </ion-content>
+</ion-app>

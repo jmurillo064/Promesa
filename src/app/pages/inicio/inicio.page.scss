@@ -1,0 +1,39 @@
+.imagen{
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    padding: 10px;
+}
+
+#divC{
+    justify-content: center; 
+    display: flex; 
+    align-items: center; 
+    text-align: center; 
+    height: 100%;
+    width: 100%;
+}
+
+label{
+    font-weight: 700 bold;
+    font-size: 25px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+p{
+    text-align: center;
+    align-items: center;
+}
+
+.claseW{
+    color: #DF8614; 
+    background-color: white;
+    border: solid #DF8614;
+}
+
+.claseN{
+    background-color: #DF8614; 
+    color: white;
+    border: solid #ffffff;
+}

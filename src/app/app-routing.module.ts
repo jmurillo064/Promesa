@@ -8,8 +8,24 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'login',
     pathMatch: 'full'
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'sana',
+    loadChildren: () => import('./pages/clasificacion/sana/sana.module').then( m => m.SanaPageModule)
+  },
+  {
+    path: 'enferma',
+    loadChildren: () => import('./pages/clasificacion/enferma/enferma.module').then( m => m.EnfermaPageModule)
   },
 ];
 
