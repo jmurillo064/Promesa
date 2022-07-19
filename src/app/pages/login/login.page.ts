@@ -40,10 +40,12 @@ export class LoginPage implements OnInit {
     if(this.cedula==null || this.cedula=="" || this.pass==null || this.pass==""){
       this.presentAlert();
     }else{
+      console.log("aqui");
       this.loginService.validarLogin(this.cedula, this.pass).then(data =>{
         if(data['code'] == "204"){
           this.presentAlert();
         }else{
+          console.log("aqui valida");
           this.router.navigate(['tabs']);
           this.cedula="";
           this.pass="";

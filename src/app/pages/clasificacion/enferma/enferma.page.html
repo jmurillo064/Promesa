@@ -10,14 +10,14 @@
   </div>
   <div id="resultado">
     <ion-item>
-      <ion-note slot="start">ESTADO</ion-note>
+      <ion-note slot="start">ESTADO</ion-note><br>
       <ion-label>{{estado}}</ion-label>
     </ion-item>
   </div>
   <div id="padre">
     <div id="hijo">
       <ion-item>
-        <ion-note slot="start">PARCELA</ion-note>
+        <ion-note slot="start">PARCELA</ion-note><br>
         <ion-select >
           <ion-select-option *ngFor="let parcela of parcelas" value="{{ parcela.id_parcela }}">
             {{ parcela.nombre_parcela }}

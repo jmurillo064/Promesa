@@ -29,6 +29,8 @@ export class ProcedimientoPage implements OnInit {
     ) { }
 
   ngOnInit() {
+    this.imgURL = "";
+    this.nombre = "";
   }
 
   //seleccionar imagen
@@ -37,7 +39,7 @@ export class ProcedimientoPage implements OnInit {
         quality: 90,
         allowEditing: false,
         resultType: CameraResultType.Base64,
-        source: CameraSource.Photos
+        source: CameraSource.Prompt
     });
 
     this.nombre = image['base64String'];
